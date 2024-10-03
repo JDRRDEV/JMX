@@ -5,7 +5,7 @@ const express = require('express');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
 
 // Token de tu bot de Discord
-const BOT_TOKEN = 'MTE5NjkwNDQyNTUyMDg5ODA2OQ.G2qHtP.0iHSheEpyS0yXhX4fR2fyttM3qY28o0lL27O7A';
+const BOT_TOKEN = 'MTE5NjkwNDQyNTUyMDg5ODA2OQ.GF1kAF.5gZ1AiHesdlmjQe-fA5EQZA0N80nIBL0J5B560';
 
 // ID del canal de Discord donde se enviarán los mensajes
 const CHANNEL_ID = '1291453058764767282';
@@ -26,7 +26,7 @@ function sendMessageToDiscord(message) {
 }
 
 // Iniciar sesión con el bot
-client.login(MTE5NjkwNDQyNTUyMDg5ODA2OQ.G2qHtP.0iHSheEpyS0yXhX4fR2fyttM3qY28o0lL27O7A);
+client.login(MTE5NjkwNDQyNTUyMDg5ODA2OQ.GF1kAF.5gZ1AiHesdlmjQe-fA5EQZA0N80nIBL0J5B560);
 
 // Crear una app express para comunicarse con el frontend
 const app = express();
@@ -46,4 +46,7 @@ app.post('/send-message', (req, res) => {
 // Escuchar en el puerto 3000
 app.listen(3000, () => {
     console.log('Servidor escuchando en el puerto 3000');
+
+const BOT_TOKEN = 'MTE5NjkwNDQyNTUyMDg5ODA2OQ.GF1kAF.5gZ1AiHesdlmjQe-fA5EQZA0N80nIBL0J5B560';
+
 });
