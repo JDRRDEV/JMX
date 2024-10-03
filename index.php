@@ -1,6 +1,6 @@
 <?php
 // Configura tu webhook de Discord
-define('DISCORD_WEBHOOK_URL', 'TU_WEBHOOK_DE_DISCORD_AQUI');
+define('https://discord.com/api/webhooks/1291453301618905170/pqbkoC2_0fSUOlK81ePXJg2mufIuE2x86K4tPaViRNxKjrnFMwDN9dvQtRNupDYdB9nD');
 
 // Manejo de mensajes
 if (isset($_POST['message'])) {
